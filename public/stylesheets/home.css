@@ -1,0 +1,39 @@
+/* public/stylesheets/home.css */
+.cover-container {
+    max-width: 60vw;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url('https://file2.nocutnews.co.kr/newsroom/image/2020/03/13/20200313090047643037_0_800_525.jpg');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: rgb(226, 226, 0);
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.nav-link:hover {
+    color: rgb(226, 226, 0);
+    border-bottom-color: rgb(226, 226, 0);
+}
+
+.nav-link.active {
+    color: rgb(255, 255, 255);
+    border-bottom-color: white
+}
+
+.btn-secondary,
+.btn-secondary:hover {
+    color: #333 !important;
+    text-shadow: none;
+}
